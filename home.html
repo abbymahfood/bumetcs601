@@ -3,53 +3,78 @@
     <head>
         <title>Abby Mahfood - Assignment 1 - Home Page</title>
         <meta charset="UTF-8">
+        <link href="css/site.css" rel="stylesheet">
     </head>
     <body>
-        <header id="top">
-            <nav>
-                <a href="home.html">Home</a> | 
-                <a href="pages/education.html">Education</a>  | 
-                <a href="pages/pets.html">Pets</a> | 
-                <a href="pages/cooking.html">Cooking</a>
-            </nav>
-        </header>
-        <hr>
-        <section>
-            <h2>Abby Mahfood</h2>
-        </section>
-        <!-- About Me Section -->
-        <section>
-            <h3>About Me</h3>
-            <p>
-                Hello! My name is Abby Mahfood and this webpage is for BU MET CS601. I grew up in central Florida and 
-                received by Bachelor's of Science in Computer Science Engineering from the University of Florida (Go Gators!). 
-                After graduating, I started working full time as a Software Engineer for 
-                <a href="https://www.l3harris.com/">L3 Harris Technologies</a>. After six years of software development including 
-                embedded software applications, console applications, and ASP.NET Core web applications, I decided it was time for 
-                a change of pace. I currently work as a Senior Software Engineer for <a href="https://capitalone.com">Capital One</a>.
-                At Capital One, I work mostly with node.js and Amazon Web Services. I am currently pursing my Master's Degree in 
-                Software Development from <a href="https://www.bu.edu/met/degrees-certificates/ms-software-development/">Boston University's Metropolitan College</a>.
-                I have a few hobbies including exercising, cooking/baking, playing video games, reading, and taking care of my pets. 
-                I also enjoy traveling and have had the opportunity to travel to Colorado, New York, and Georgia this year. 
-                Below is a picture of me enjoying iced coffee in Savannah, Georgia and a video of me kayaking in upstate New York!
-            </p>
-            <img src="imgs/Me.jpg" alt="Picture of Abby in Savannah, GA enjoying iced coffee.">
-            <video controls="controls" width="400" height="300">
-                <source src="videos/newyork_kayaking_encoded.mp4">
-            </video>
-        </section>
-        <hr>
-        <section>
-            <h3>Contact Me</h3>
-            <ul>
-                <li><a href="mailto:amahfood@bu.edu">Email</a></li>
-                <li><a href="https://www.linkedin.com/in/abby-mahfood-40b24ba5">LinkedIn</a></li>
-            </ul>
-        </section>
-        <a href="#top">Top</a>
-        <hr>
-        <footer>
-            <p>Copyright &copy; 2022 Abby Mahfood.</p>
-        </footer>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <p>
+                        <a href="home.html">Home</a>
+                    </p>
+                    <p>
+                        <a href="pages/education.html">Education</a>
+                    </p>
+                    <p>
+                        <a href="pages/pets.html">Pets</a>
+                    </p>
+                    <p>
+                        <a href="pages/cooking.html">Cooking</a>
+                    </p>
+                </nav>
+            </header>
+            <!-- About Me Section -->
+            <div class="main">
+                <section>
+                    <h3 id="top">About Me</h3>
+                    <img class="main-sidebar-image" src="imgs/Me.jpg" alt="Picture of Abby in Savannah, GA enjoying iced coffee.">
+                    <video class="video-center" controls="controls">
+                        <source src="videos/newyork_kayaking_encoded.mp4">
+                    </video>
+                    <p>Hello!</p>
+                    <p>My name is Abby Mahfood and this webpage is for BUMET CS601.</p>
+                    <p>
+                        I grew up in central Florida and received my Bachelor's of Science in 
+                        Computer Science Engineering from the University of Florida. Go Gators! 
+                    </p>
+                    <p>
+                        After graduating, I started working full time as a Software Engineer for 
+                        <a href="https://www.l3harris.com/">L3 Harris Technologies</a>. 
+                        I had the opportunity to work onembedded software applications, 
+                        console applications, and ASP.NET Core web applications. After six years, 
+                        I decided it was time for a change of pace.
+                    </p>
+                    <p>
+                        I currently work as a Senior Software Engineer for 
+                        <a href="https://capitalone.com">Capital One</a>.
+                        I work mostly with node.js and Amazon Web Services.
+                        I am also pursing my Master's Degree in Software Development from 
+                        <a href="https://www.bu.edu/met/degrees-certificates/ms-software-development/">
+                            Boston University's Metropolitan College
+                        </a>.
+                    </p>
+                    <p>
+                        My hobbies include exercising, cooking/baking, playing video games, reading, 
+                        and taking care of my pets. I enjoy traveling and have had the opportunity 
+                        to travel to Colorado, New York, and Georgia this year. On this page you'll 
+                        find a picture of me enjoying iced coffee in Savannah, 
+                        Georgia and a video of me kayaking in upstate New York!
+                    </p>
+                    <a href="#top">Top</a>
+                </section>
+                
+            </div>
+            <aside class="sidebar">
+                <h2>Abby Mahfood</h2>
+                <img src="imgs/Me.jpg" alt="Picture of Abby in Savannah, GA enjoying iced coffee.">
+                <p class="contact-info">
+                    <a href="mailto:amahfood@bu.edu">Email</a>
+                    <a href="https://www.linkedin.com/in/abby-mahfood-40b24ba5">LinkedIn</a>
+                </p>
+            </aside>
+            <footer>
+                <p>Copyright &copy; 2022 Abby Mahfood</p>
+            </footer>
+        </div>
     </body>
 </html>

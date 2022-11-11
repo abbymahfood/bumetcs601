@@ -1,0 +1,19 @@
+.main img {
+    float: right;
+    margin: 5px;
+}
+
+caption {
+    font-weight: bold;
+    border: 1px solid #8ea6c5;
+    color: #26364a;
+}
+
+th {
+    color: #26364a;
+}
+
+table, th, td {
+    border: 1px solid #8ea6c5;
+}
+

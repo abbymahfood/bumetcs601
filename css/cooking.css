@@ -1,0 +1,12 @@
+.parent {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .child {
+    width: fit-content;  /* Or whatever */
+    height: fit-content; /* Or whatever */
+    margin: 10px;  /* Magic! */
+    border-top: 2px solid #8ea6c5;
+
+  }

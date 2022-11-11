@@ -3,121 +3,139 @@
     <head>
         <title>Abby Mahfood - Assignment 1 - Education</title>
         <meta charset="UTF-8">
+        <link href="../css/site.css" rel="stylesheet">
+        <link href="../css/education.css" rel="stylesheet">
     </head>
     <body>
-        <header id="top">
-            <nav>
-                <a href="../home.html">Home</a> | 
-                <a href="education.html">Education</a>  | 
-                <a href="pets.html">Pets</a> | 
-                <a href="cooking.html">Cooking</a>
-            </nav>
-        </header>
-        <hr>
-        <!-- Current Studies Section -->
-        <section>
-            <h3>Current Studies</h3>
-            <p>
-                I am studying Software Development at Boston University's Metropolitan College. I have 
-                completed 3 courses so far. I am currently taking Web Application Development with Professor Looper. 
-                Web development was the reason I decided to pursue my Masters. I started working on an ASP.NET Core
-                web application while working at L3 Harris Technologies. There weren't many experienced web developers
-                at the company so I figured getting a formal education in the subject matter couldn't hurt. Below you 
-                will see my current progress and possible classes for the future. 
-            </p>
-            <img src="../imgs/SammyWatchingLecture.jpeg" alt="Picture of my dog Sammy watching a BU MET Lecture with me.">
-            <hr>
-            <table>
-                <caption>Courses Completed</caption>
-                <thead>
-                    <tr>
-                        <th>Course Number</th>
-                        <th>Course Description</th>
-                        <th>Term Completed</th>
-                        <th>Professor</th>
-                        <th>Type</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>MET CS 521</td>
-                        <td>Info Structures with Python</td>
-                        <td>Spring 1 2022</td>
-                        <td>Lu</td>
-                        <td>Required</td>
-                    </tr>
-                    <tr>
-                        <td>MET CS 526</td>
-                        <td>Data Structures and Algorithms</td>
-                        <td>Spring 2 2022</td>
-                        <td>Raghu</td>
-                        <td>Required</td>
-                    </tr>
-                    <tr>
-                        <td>MET CS 673</td>
-                        <td>Software Engineering</td>
-                        <td>Fall 1 2022</td>
-                        <td>Raghu</td>
-                        <td>Required</td>
-                    </tr>
-                    <tr>
-                        <td>MET CS 601</td>
-                        <td>Web Application Development</td>
-                        <td>Fall 2 2022 (In Progress)</td>
-                        <td>Looper</td>
-                        <td>Elective</td>
-                    </tr>
-                </tbody>
-            </table>
-            <br>
-            <hr>
-            <table>
-                <caption>Courses Left</caption>
-                <thead>
-                    <tr>
-                        <th>Course Number</th>
-                        <th>Course Description</th>
-                        <th>Possible Term</th>
-                        <th>Professor</th>
-                        <th>Type</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>MET CS 622</td>
-                        <td>Advanced Programming Techniques </td>
-                        <td>Spring 1 2023</td>
-                        <td>Rawassizadeh</td>
-                        <td>Required</td>
-                    </tr>
-                    <tr>
-                        <td>MET CS 665</td>
-                        <td>Software Design and Patterns</td>
-                        <td>Spring 2 2023</td>
-                        <td>Kalathur</td>
-                        <td>Required</td>
-                    </tr>
-                    <tr>
-                        <td>MET CS 602</td>
-                        <td>Server-Side Web Development</td>
-                        <td>Spring 1 2023</td>
-                        <td>Orsini</td>
-                        <td>Elective</td>
-                    </tr>
-                    <tr>
-                        <td>MET CS 701</td>
-                        <td>Rich Internet Application Dev</td>
-                        <td>Spring 2 2023</td>
-                        <td>Winderbaum</td>
-                        <td>Elective</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        <a href="#top">Top</a>
-        <hr>
-        <footer>
-            <p>Copyright &copy; 2022 Abby Mahfood.</p>
-        </footer>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <p>
+                        <a href="../home.html">Home</a>
+                    </p>
+                    <p>
+                        <a href="../pages/education.html">Education</a>
+                    </p>
+                    <p>
+                        <a href="../pages/pets.html">Pets</a>
+                    </p>
+                    <p>
+                        <a href="../pages/cooking.html">Cooking</a>
+                    </p>
+                </nav>
+            </header>
+            <!-- Current Studies Section -->
+            <div class="main">
+                <section>
+                    <h3 id="top">Current Studies</h3>
+                    <img src="../imgs/SammyWatchingLecture.jpeg" alt="Picture of my dog Sammy watching a BU MET Lecture with me.">
+                    <p>
+                        I am studying Software Development at Boston University's Metropolitan College. I have 
+                        completed 3 courses so far. I am currently taking Web Application Development with Professor Looper. 
+                        Web development was the reason I decided to pursue my Masters. I started working on an ASP.NET Core
+                        web application while working at L3 Harris Technologies. There weren't many experienced web developers
+                        at the company so I figured getting a formal education in the subject matter couldn't hurt. Below you 
+                        will see my current progress and possible classes for the future. 
+                    </p>
+                    <table>
+                        <caption>Courses Completed</caption>
+                        <thead>
+                            <tr>
+                                <th>Number</th>
+                                <th>Description</th>
+                                <th>Completed</th>
+                                <th>Professor</th>
+                                <th>Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>MET CS 521</td>
+                                <td>Info Structures with Python</td>
+                                <td>Spring 1 2022</td>
+                                <td>Lu</td>
+                                <td>Required</td>
+                            </tr>
+                            <tr>
+                                <td>MET CS 526</td>
+                                <td>Data Structures and Algorithms</td>
+                                <td>Spring 2 2022</td>
+                                <td>Raghu</td>
+                                <td>Required</td>
+                            </tr>
+                            <tr>
+                                <td>MET CS 673</td>
+                                <td>Software Engineering</td>
+                                <td>Fall 1 2022</td>
+                                <td>Raghu</td>
+                                <td>Required</td>
+                            </tr>
+                            <tr>
+                                <td>MET CS 601</td>
+                                <td>Web Application Development</td>
+                                <td>Fall 2 2022 (In Progress)</td>
+                                <td>Looper</td>
+                                <td>Elective</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <table>
+                        <caption>Courses Left</caption>
+                        <thead>
+                            <tr>
+                                <th>Number</th>
+                                <th>Description</th>
+                                <th>Term</th>
+                                <th>Professor</th>
+                                <th>Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>MET CS 622</td>
+                                <td>Advanced Programming Techniques </td>
+                                <td>Spring 1 2023</td>
+                                <td>Rawassizadeh</td>
+                                <td>Required</td>
+                            </tr>
+                            <tr>
+                                <td>MET CS 665</td>
+                                <td>Software Design and Patterns</td>
+                                <td>Spring 2 2023</td>
+                                <td>Kalathur</td>
+                                <td>Required</td>
+                            </tr>
+                            <tr>
+                                <td>MET CS 602</td>
+                                <td>Server-Side Web Development</td>
+                                <td>Spring 1 2023</td>
+                                <td>Orsini</td>
+                                <td>Elective</td>
+                            </tr>
+                            <tr>
+                                <td>MET CS 701</td>
+                                <td>Rich Internet Application Dev</td>
+                                <td>Spring 2 2023</td>
+                                <td>Winderbaum</td>
+                                <td>Elective</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#top">Top</a>
+                </section>
+            </div>
+            <aside class="sidebar">
+                <h2>Abby Mahfood</h2>
+                <img src="../imgs/Me.jpg" alt="Picture of Abby in Savannah, GA enjoying iced coffee.">
+                <p class="contact-info">
+                    <a href="mailto:amahfood@bu.edu">Email</a>
+                    <a href="https://www.linkedin.com/in/abby-mahfood-40b24ba5">LinkedIn</a>
+                </p>
+            </aside>
+            <footer>
+                <p>Copyright &copy; 2022 Abby Mahfood</p>
+            </footer>
+        </div>
     </body>
 </html>

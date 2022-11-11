@@ -3,69 +3,108 @@
     <head>
         <title>Abby Mahfood - Assignment 1 - Pets</title>
         <meta charset="UTF-8">
+        <link href="../css/site.css" rel="stylesheet">
+        <link href="../css/pets.css" rel="stylesheet">
     </head>
     <body>
-        <header id="top">
-            <nav>
-                <a href="../home.html">Home</a> | 
-                <a href="education.html">Education</a>  | 
-                <a href="pets.html">Pets</a> | 
-                <a href="cooking.html">Cooking</a>
-            </nav>
-        </header>
-        <hr>
-        <!-- Pet Summary Section -->
-        <section>
-            <h3>Hello from my Pets!</h3>
-            <p>
-                I have adopted four animals! The first was Patch. He is a black cat who I adopted when he was 1 year old.
-                He loves to cuddle and explore. The next to join the family was Sammy. He was about 7 years old when
-                he was adopted. He loves to gather toys and cuddle with them. He takes breakfast and dinner very seriously.
-                Next up was Nea. She was adopted by my partner as a puppy and I've had the joy of adopting her as well. She
-                loves to catch a ball and rip up toys much to Sammy's dismay. Lastly is Winston. He was adopted as a kitten
-                and is more cautious than Patch. He loves finding places to nap and is first up when it comes to feeding time. 
-            </p>
-            <hr>
-            <article>
-                <h4>Adopted 2017</h4>
-                <dl>
-                    <dt>Patch</dt>
-                    <dd>Black Cat</dd>
-                    <dd><img src="../imgs/Patch.jpeg" alt="Picture of Patch the cat sitting."></dd>
-                </dl>
-            </article>
-            <hr>
-            <article>
-                <h4>Adopted 2018</h4>
-                <dl>
-                    <dt>Sammy</dt>
-                    <dd>German Shepard/Akita Mix</dd>
-                    <dd><img src="../imgs/Sammy.jpeg" alt="Picture of Sammy the dog sleeping."></dd>
-                </dl>
-            </article>
-            <hr>
-            <article>
-                <h4>Adopted 2018</h4>
-                <dl>
-                    <dt>Nea</dt>
-                    <dd>Black Mouth Cur Mix</dd>
-                    <dd><img src="../imgs/Nea.jpeg" alt="Picture of Nea the dog exploring outside."></dd>
-                </dl>
-            </article>
-            <hr>
-            <article>
-                <h4>Adopted 2019</h4>
-                <dl>
-                    <dt>Winston</dt>
-                    <dd>Maine Coon Mix</dd>
-                    <dd><img src="../imgs/Winston.jpeg" alt="Picture of Winston the cat sitting."></dd>
-                </dl>
-            </article>
-        </section>
-        <a href="#top">Top</a>
-        <hr>
-        <footer>
-            <p>Copyright &copy; 2022 Abby Mahfood.</p>
-        </footer>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <p>
+                        <a href="../home.html">Home</a>
+                    </p>
+                    <p>
+                        <a href="../pages/education.html">Education</a>
+                    </p>
+                    <p>
+                        <a href="../pages/pets.html">Pets</a>
+                    </p>
+                    <p>
+                        <a href="../pages/cooking.html">Cooking</a>
+                    </p>
+                </nav>
+            </header>
+            <div class="main">
+                <!-- Pet Summary Section -->
+                <section>
+                    <h3 id="top">Hello from my Pets!</h3>
+                    <p>
+                        I have adopted four animals! The first was Patch. He is a black cat who I adopted when he was one year old.
+                        He loves to cuddle and explore. The next to join the family was Sammy. He was about seven years old when
+                        he was adopted. He loves to gather toys and cuddle with them. He takes breakfast and dinner very seriously.
+                        Next up was Nea. She was adopted by my partner as a puppy and I've had the joy of adopting her as well. She
+                        loves to catch a ball and rip up toys much to Sammy's dismay. Lastly is Winston. He was adopted as a kitten
+                        and is more cautious than Patch. He loves finding places to nap and is first up when it comes to feeding time. 
+                    </p>
+                    <section class="pet-grid">
+                        <article class="pet-article pet1">
+                            <h4>Adopted 2017</h4>
+                            <img class="pet-image" src="../imgs/Patch.jpeg" alt="Picture of Patch the cat sitting.">
+                            <div class="article-line">
+                                <p class="pet-field">Name: </p>
+                                <p class="pet-value">Patch</p>
+                            </div>
+                            <div class="article-line">
+                                <p class="pet-field">Breed: </p>
+                                <p class="pet-value">Black Cat</p>
+                            </div>
+                        </article>
+                        <article class="pet-article pet2">
+                            <h4>Adopted 2018</h4>
+                            <dl>
+                                <img class="pet-image" src="../imgs/Sammy.jpeg" alt="Picture of Sammy the dog sleeping.">
+                                <div class="article-line">
+                                    <p class="pet-field">Name: </p>
+                                    <p class="pet-value">Sammy</p>
+                                </div>
+                                <div class="article-line">
+                                    <p class="pet-field">Breed: </p>
+                                    <p class="pet-value">German Shepard/Akita Mix</p>
+                                </div>
+                            </dl>
+                        </article>
+                        <article class="pet-article pet3">
+                            <h4>Adopted 2018</h4>
+                            <dl>
+                                <img class="pet-image" src="../imgs/Nea.jpeg" alt="Picture of Sammy the dog sleeping.">
+                                <div class="article-line">
+                                    <p class="pet-field">Name: </p>
+                                    <p class="pet-value">Nea</p>
+                                </div>
+                                <div class="article-line">
+                                    <p class="pet-field">Breed: </p>
+                                    <p class="pet-value">Black Mouth Cur</p>
+                                </div>
+                            </dl>
+                        </article>
+                        <article class="pet-article pet4">
+                            <h4>Adopted 2019</h4>
+                            <dl>
+                                <img class="pet-image" src="../imgs/Winston.jpeg" alt="Picture of Sammy the dog sleeping.">
+                                <div class="article-line">
+                                    <p class="pet-field">Name: </p>
+                                    <p class="pet-value">Winston</p>
+                                </div>
+                                <div class="article-line">
+                                    <p class="pet-field">Breed: </p>
+                                    <p class="pet-value">Maine Coon Mix</p>
+                                </div>
+                            </dl>
+                        </article>
+                    </section>
+                <a href="#top">Top</a>
+            </div>
+            <aside class="sidebar">
+                <h2>Abby Mahfood</h2>
+                <img src="../imgs/Me.jpg" alt="Picture of Abby in Savannah, GA enjoying iced coffee.">
+                <p class="contact-info">
+                    <a href="mailto:amahfood@bu.edu">Email</a>
+                    <a href="https://www.linkedin.com/in/abby-mahfood-40b24ba5">LinkedIn</a>
+                </p>
+            </aside>
+            <footer>
+                <p>Copyright &copy; 2022 Abby Mahfood</p>
+            </footer>
+        </div>
     </body>
 </html>
