@@ -1,47 +1,46 @@
 .pet-grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: max-content max-content;
-    grid-template-areas: 
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: max-content max-content;
+  grid-template-areas:
     "pet1 pet2"
     "pet3 pet4";
 }
 
 .pet1 {
-    grid-area: pet1;
+  grid-area: pet1;
 }
 .pet2 {
-    grid-area: pet2;
+  grid-area: pet2;
 }
 .pet3 {
-    grid-area: pet3;
+  grid-area: pet3;
 }
 .pet4 {
-    grid-area: pet4;
+  grid-area: pet4;
 }
 .pet-article {
-    display: block;
-    border-top: 2px solid #8ea6c5;
-    padding: 10px;
+  display: block;
+  border-top: 2px solid #8ea6c5;
+  padding: 10px;
 }
 
 .article-line {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .pet-field {
-    font-style: italic;
-    display: inline;
-    text-align: center;
+  font-style: italic;
+  display: inline;
+  text-align: center;
 }
 .pet-value {
-    display: inline;
-    text-align: center;
-
+  display: inline;
+  text-align: center;
 }
 .pet-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
