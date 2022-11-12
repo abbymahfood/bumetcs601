@@ -15,6 +15,24 @@ body {
     "sidebar  footer";
 }
 
+th,
+h3,
+h4 {
+  color: #26364a;
+}
+
+table,
+th,
+td {
+  border: 1px solid #8ea6c5;
+}
+
+caption {
+  font-weight: bold;
+  border: 1px solid #8ea6c5;
+  color: #26364a;
+}
+
 header {
   grid-area: header;
   height: 60px;
@@ -116,11 +134,12 @@ nav a:visited {
 }
 
 .video-center {
-  width: 40%;
-  min-height: 90%;
-  image-resolution: 95%;
+  width: 30%;
+  height: 70%;
+  image-resolution: 75%;
   border: 5px solid #8ea6c5;
   float: right;
+  margin: 5px;
 }
 
 footer {
@@ -137,7 +156,7 @@ footer p {
   text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .wrapper {
     font-size: small;
     grid-template-columns: 100%;
@@ -158,18 +177,18 @@ footer p {
   }
   .main-sidebar-image {
     display: block;
-    width: 50%;
-    border: 5px solid #8ea6c5;
-    float: right;
-    margin: 15px;
-  }
-  .video-center {
     width: 40%;
-    min-height: 90%;
-    image-resolution: 95%;
     border: 5px solid #8ea6c5;
     float: left;
-    margin: 15px;
+    margin: 5px 15px 5px 0px;
+  }
+  .video-center {
+    width: 30%;
+    min-height: 70%;
+    image-resolution: 75%;
+    border: 5px solid #8ea6c5;
+    float: right;
+    margin: 5px;
   }
   .sidebar {
     height: 30px;

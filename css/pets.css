@@ -1,46 +1,56 @@
-.pet-grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: max-content max-content;
-  grid-template-areas:
-    "pet1 pet2"
-    "pet3 pet4";
+.pet-flex {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
 }
-
-.pet1 {
-  grid-area: pet1;
-}
-.pet2 {
-  grid-area: pet2;
-}
-.pet3 {
-  grid-area: pet3;
-}
-.pet4 {
-  grid-area: pet4;
-}
-.pet-article {
-  display: block;
+.pet {
+  width: calc(25% - 10px);
+  margin: 5px;
   border-top: 2px solid #8ea6c5;
-  padding: 10px;
 }
-
 .article-line {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: left;
 }
 .pet-field {
   font-style: italic;
   display: inline;
-  text-align: center;
+  text-align: left;
 }
 .pet-value {
   display: inline;
-  text-align: center;
+  text-align: left;
 }
-.pet-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.article-grid {
+  display: grid;
+  grid-template-columns: 90%;
+  grid-template-rows: 60px max-content max-content;
+  grid-template-areas:
+    "article-title"
+    "article-photo"
+    "article-comments";
+}
+
+.article-title {
+  grid-area: article-title;
+}
+
+.article-photo {
+  width: 90%;
+  grid-area: article-photo;
+}
+
+.article-comments {
+  width: fit-content;
+  height: fit-content;
+  grid-area: article-comments;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .pet {
+    min-width: 300px;
+  }
 }
