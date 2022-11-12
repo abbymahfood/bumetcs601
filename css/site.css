@@ -130,13 +130,12 @@ nav a:visited {
 }
 
 .main h3 {
-  margin: -top 5px;
+  margin-top: 5px;
 }
 
 .video-center {
   width: 30%;
   height: 70%;
-  image-resolution: 75%;
   border: 5px solid #8ea6c5;
   float: right;
   margin: 5px;
@@ -185,7 +184,6 @@ footer p {
   .video-center {
     width: 30%;
     min-height: 70%;
-    image-resolution: 75%;
     border: 5px solid #8ea6c5;
     float: right;
     margin: 5px;

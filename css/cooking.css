@@ -1,6 +1,6 @@
 .main-flex {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: wrap;
 }
 
 .article-flex {
@@ -28,7 +28,7 @@
 .article-contents {
   grid-area: recipe-notes;
   display: flex;
-  flex-wrap: row wrap;
+  flex-wrap: nowrap;
 }
 
 .article-source {
